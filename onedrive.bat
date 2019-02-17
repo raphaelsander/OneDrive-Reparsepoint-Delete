@@ -1,0 +1,1 @@
+for /f "tokens=*" %G in ('dir /b /s /a:d "%1"') do fsutil reparsepoint delete "%G"
